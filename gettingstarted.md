@@ -394,48 +394,73 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 
 <style>
-/* Section 1: Dark red header, large spaced text on pale background */
+
+ /* Section 1: */
 .gs-section-01 h3 { 
-  color: darkred;
+  color: #925e78;
 }
 .gs-section-01 p {
-  font-size: 22px;
-  line-height: 1.8;
-  background-color: #ffe5e5;
-  padding: 10px;
-  border-radius: 5px;
+  font-size: 16px;
+ color: #f05365
 }
-
-/* Section 2: Teal header, small italic text */
+ 
+/* Section 2: */
 .gs-section-02 h3 { 
-  color: teal;
+  color: #b5838d;
 }
 .gs-section-02 p {
   font-size: 14px;
   font-style: italic;
-  color: #004d4d;
+  color: #ffb4a2;
 }
 
-/* Section 3: Purple header, bold centered text with light gray background */
+/* Section 3: */
 .gs-section-03 h3 { 
-  color: purple;
+  color: #372554;
 }
 .gs-section-03 p {
-  font-size: 20px;
-  font-weight: bold;
-  text-align: center;
-  background-color: #f2f2f2;
-  padding: 8px;
+  font-size: 14px;
+  font-style: italic;
+  color: #0ccae3;
 }
+
 
 /* Section 4: Gold header, huge playful text with underline */
 .gs-section-04 h3 { 
-  color: darkpink;
+  color: #a663cc;
   text-decoration: underline;
 }
 .gs-section-04 p {
-  font-size: 28px;
-  color: #333;
-  letter-spacing: 2px;
+ /* Glittery cursive header for Section 4 */
+.gs-section-04 h3 {
+  font-family: "Brush Script MT","Lucida Handwriting",cursive;
+  font-size: 2.2em;
+  letter-spacing: 1px;
+
+  /* shimmering gold gradient text */
+  background-image: linear-gradient(90deg, #ffd700, #fff6a9, #ffcc33, #ffd700);
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow: 0 0 8px rgba(255, 215, 0, 0.35);
+  position: relative;
+  animation: shimmer 4s linear infinite;
 }
+
+/* add sparkles */
+.gs-section-04 h3::before,
+.gs-section-04 h3::after {
+  content: "✨";
+  margin: 0 .35em;
+  opacity: .95;
+}
+
+/* shimmer animation */
+@keyframes shimmer {
+  to { background-position: 200% center; }
+}
+ 
 </style>
