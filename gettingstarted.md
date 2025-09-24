@@ -22,8 +22,13 @@
 - [Getting help](#getting-help)
 - [Credits and contributions](#contributions)
 
+
+<div class="Features" markdown="1">
+ 
 # Features
 
+<details open>
+ <summary>Show details</summary>
 __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the latest features!__
 
 - **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
@@ -39,6 +44,10 @@ __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the lat
 - **Search**: Let users easily find any page using a Search button in the navigation bar.
 - **Photos support**: Any page can have a full-width cover photo and thumbnail.
 - **RSS**: An RSS feed is automatically created, so you can even host a podcast easily with Beautiful Jekyll.
+  
+</details>
+
+</div>
 
 <h2 id="sponsors">Sponsors 🏆</h2>
 
