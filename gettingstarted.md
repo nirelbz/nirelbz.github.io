@@ -430,7 +430,7 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 /* Section 4: Gold header, huge playful text with underline */
 .gs-section-04 h3 { 
-  color: pink;
+  color: darkpink;
   text-decoration: underline;
 }
 .gs-section-04 p {
