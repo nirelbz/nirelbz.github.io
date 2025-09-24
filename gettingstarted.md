@@ -27,8 +27,9 @@
  
 # Features
 
-<details open>
+<details>
  <summary>Show details</summary>
+ 
 __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the latest features!__
 
 - **SIMPLE**: The primary goal of Beautiful Jekyll is to allow literally *anyone* to create a website in a few minutes.
@@ -49,15 +50,25 @@ __Check out [*What's New?*](https://beautifuljekyll.com/updates/) to see the lat
 
 </div>
 
+<div class="Sponsors" markdown="1">
+
 <h2 id="sponsors">Sponsors 🏆</h2>
 
+<details>
+ <summary>Show details</summary>
+ 
 Developing and maintaining Beautiful Jekyll takes a lot of time and effort - thank you to anyone who helps fund this effort!
 
 - [DoFollow](https://dofollow.co.uk/)
 - [Varna Sri Raman](https://about.me/varna)
 
 **[Become a sponsor for Beautiful Jekyll and unlock new features\!](https://github.com/sponsors/daattali/sponsorships?tier_id=39856)**
+</details>
 
+</div>
+
+<div class="Sponsors" markdown="1">
+ 
 # Build your website in 3 steps
 
 There are a few different ways to build a website using Beautiful Jekyll, and this document will go through the simplest one: using a fork on GitHub. For most people (including myself!), this easy method is the recommended one.
@@ -65,6 +76,9 @@ There are a few different ways to build a website using Beautiful Jekyll, and th
 Even if you choose to use one of the [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard), I still suggest you read through the easy method first.
 
 ## The easy way (recommended!)
+
+<details open>
+ <summary>Show details</summary>
 
 Getting started is *literally* as easy as 1-2-3 :smile:
 
@@ -76,7 +90,12 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
  
 ### 1. Fork this project
 
+<details>
+  <summary>Show details</summary>
+ 
 Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
+
+</details>
 
 </div>
 
@@ -92,6 +111,7 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
  </div> 
 
  <div class="gs-section-03" markdown="1">
+  
 ### 3. Customize your website settings
 
 Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
@@ -109,18 +129,41 @@ If you named your project correctly and made an edit to the config file, your we
 
 </div>
 
+</details> 
+
 ## The harder way (for advanced users)
 
+<details>
+ <summary>Show details</summary>
+ 
 The instructions above explain how to use Beautiful Jekyll in the easiest way: by forking on GitHub. There are more [advanced installation methods](https://beautifuljekyll.com/getstarted/#install-steps-hard) that include either using GitHub Pages with remote themes, or using Ruby gems. They provide you with more control, but are only intended for advanced users.
 
 > Note: Beautiful Jekyll was primarily designed to be used as a GitHub theme, so you will not get any support if you use this theme via Ruby gems. 
 
+</details>
+
+</div>
+
+<div class="plans" markdown="1">
+ 
 # Plans
 
+<details>
+ <summary>Show details</summary>
+ 
 Beautiful Jekyll is, and always will be, free. But if you want to remove the Beautiful Jekyll ad from your website, use a Dark Mode skin, access office hours, or simply support the development efforts, [check out the different plans](https://beautifuljekyll.com/plans).
 
+</details>
+
+</div>
+
+<div class="add" markdown="1">
+ 
 # Add your own content
 
+<details>
+ <summary>Show details</summary>
+ 
 To add pages to your site, you can either write a markdown file (`.md`) or you can write an HTML file. It's much easier to write markdown than HTML, so that's the recommended approach ([here's a great tutorial](https://markdowntutorial.com/) if you need to learn markdown in 5 minutes).
 
 To see an example of a markdown file, click on any file that ends in `.md`, for example [`aboutme.md`](./aboutme.md). On that page you can see some nicely formatted text (there's a word in bold, a link, a few bullet points), and if you click on the pencil icon to edit the file, you'll see the markdown code that generated the pretty text. Very easy! 
@@ -131,8 +174,17 @@ Any markdown or HTML file that you create will be available on your website unde
 
 Files you create inside the [`_posts`](./_posts) directory will be treated as blog entries. You can look at the existing files there to get an idea of how to write blog posts. Note the format of the blog post files - they must follow the naming convention of `YEAR-MONTH-DAY-title.md`. After you successfully add your own post, you can delete the existing files inside [`_posts`](./_posts) to remove the sample posts, as those are just demo posts to help you learn.
 
+</details>
+
+</div>
+
+<div class="parameters" markdown="1">
+
 # Customizing parameters for each page
 
+<details>
+ <summary>Show details</summary>
+ 
 **One last important thing**: In order to have your new pages use this template and not just be plain HTML pages, **you must add [YAML front matter](https://jekyllrb.com/docs/front-matter/) to the top of each page**:
 
 
@@ -217,22 +269,51 @@ ext-js      | List of external JavaScript files to include in the page (eg. `//c
 css         | List of local CSS files to include in the page
 ext-css      | List of external CSS files to include in the page. External CSS files using SRI (see `ext-js` parameter) are also supported.
 
+</details>
+
+</div>
+
+<div class="pages" markdown="1">
+
 ## Page types
 
+<details>
+  <summary>Show details</summary>
+ 
 - **post** - To write a blog post, add a markdown or HTML file in the `_posts` folder. As long as you give it YAML front matter (the two lines of three dashes), it will automatically be rendered like a blog post. Look at the existing blog post files to see examples of how to use YAML parameters in blog posts.
 - **page** - Any page outside the `_posts` folder that uses YAML front matter will have a very similar style to blog posts.
 - **home** - The home layout is meant to act as the homepage of your blog posts - it will display all your blog posts, sorted from newest to oldest. A file using the `home` layout must be named `index.html` (not `index.md` or anything else!).
 - **minimal** - If you want to create a page with minimal styling (ie. without the bulky navigation bar and footer), assign `layout: minimal` to the YAML front matter.
 - If you want to completely bypass the template engine and just write your own HTML page, simply omit the YAML front matter. Only do this if you know how to write HTML!
 
+</details>
+
+</div>
+
+
+<div class="featured" markdown="1">
+ 
 # Featured users (success stories!)
+
+<details>
+  <summary>Show details</summary>
 
 Visit the [Official website](http://beautifuljekyll.com/examples) to see sample websites using Beautiful Jekyll.
 
 If you'd like to showcase yourself and join this list, [upgrading to the Individual plan](https://github.com/sponsors/daattali/sponsorships?&tier_id=7362) will give you that publicity plus some other rewards!
 
+</details>
+
+</div>
+
+
+<div class="next" markdown="1">
+ 
 # Next steps
 
+<details>
+  <summary>Show details</summary>
+ 
 Congratulations on making it this far! You now have all the tools to easily build a beautiful website for free. 
 
 - After you get comfortable with the basics of writing in markdown, I suggest taking a look at this [sample post](https://beautifuljekyll.com/2020-02-28-sample-markdown/) and [the code that created it](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about markdown.
@@ -243,25 +324,54 @@ Congratulations on making it this far! You now have all the tools to easily buil
 
 - Remember that Beautiful Jekyll is built on top of Jekyll. This means that reading through the [Jekyll documentation](https://jekyllrb.com/) will introduce you to many more features that you might find useful!
 
+</details>
+
+</div>
+
+<div class="help" markdown="1">
+ 
 # Getting help
 
+<details>
+  <summary>Show details</summary>
+ 
 Visit the [FAQ page](https://beautifuljekyll.com/faq) for answers to commonly asked questions.
 
 **If you choose to [become a sponsor](https://beautifuljekyll.com/plans/), you'll have access to my [office hours](https://beautifuljekyll.com/officehours/) where you can ask for help.** You can also use the [Discussions](https://github.com/daattali/beautiful-jekyll/discussions) area to try and get help from the community.
 
 Beautiful Jekyll is used by 50,000+ people with wildly varying degrees of web skills, so it's impossible to answer all the questions that may arise. For any question that's not specifically related to Beautiful Jekyll and is more about Jekyll or web development in general, the answer can often be found on Google, in the [Jekyll documentation](https://jekyllrb.com/), or on the [Jekyll support forum](https://talk.jekyllrb.com/).
 
+</details>
+</div>
+
+<div class="contributions" markdown="1">
+
 # Contributions
 
+<details>
+  <summary>Show details</summary>
+ 
 Thank you to [all past contributors](https://github.com/daattali/beautiful-jekyll/graphs/contributors). If you find any problems or would like to contribute in any way, feel free to create a pull request/open an issue/send me a message.
 
 You can also contribute by becoming an [official sponsor](https://github.com/sponsors/daattali/sponsorships?tier_id=39856) to help keep Beautiful Jekyll well-maintained!
 
+</details>
+</div>
+
+<div class="credits" markdown="1">
+ 
 # Credits
 
+<details>
+  <summary>Show details</summary>
+ 
 This template was not made *entirely* from scratch. I'd like to give special thanks to [Jekyll Now](https://github.com/barryclark/jekyll-now) and [Bootstrap Clean Blog](https://github.com/IronSummitMedia/startbootstrap-clean-blog), from whom I've taken several ideas initially.
 
 I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/), [Jekyll Themes](http://jekyllthemes.org/), and another [Jekyll Themes](http://jekyllrc.github.io/jekyllthemes/) for featuring Beautiful Jekyll in their Jekyll theme directories.
+
+</details>
+
+</div> 
 
 
 <style>
