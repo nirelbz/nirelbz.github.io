@@ -63,12 +63,14 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
 
 ![Installation steps](https://beautifuljekyll.com/assets/img/install-steps.gif)
 
-
+<div class="gs-section-01" markdown="1">
+ 
  ### 1. Fork this project
 
 Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
 
-<div class="gs-section-01" markdown="1">
+</div>
+
 
 ### 2. Rename the repository to `YOURUSERNAME.github.io`
 
@@ -76,7 +78,6 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
 
 > Tip: If you want to use a different URL for your website, check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain)
 
-</div>
 
 ### 3. Customize your website settings
 
