@@ -256,41 +256,48 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 
 <style>
+/* Section 1: Dark red header, large spaced text on pale background */
 .gs-section-01 h3 { 
-     color: darkred;
+  color: darkred;
 }
-
 .gs-section-01 p {
-     font-size: 30px;
+  font-size: 22px;
+  line-height: 1.8;
+  background-color: #ffe5e5;
+  padding: 10px;
+  border-radius: 5px;
 }
-</style>
 
-<style>
+/* Section 2: Teal header, small italic text */
 .gs-section-02 h3 { 
-     color: teal;
+  color: teal;
 }
-
 .gs-section-02 p {
-     font-size: 15px;
+  font-size: 14px;
+  font-style: italic;
+  color: #004d4d;
 }
-</style>
 
-<style>
+/* Section 3: Purple header, bold centered text with light gray background */
 .gs-section-03 h3 { 
-     color: purple;
+  color: purple;
 }
-
 .gs-section-03 p {
-     font-size: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  background-color: #f2f2f2;
+  padding: 8px;
 }
-</style>
 
-<style>
+/* Section 4: Gold header, huge playful text with underline */
 .gs-section-04 h3 { 
-     color: gold;
+  color: gold;
+  text-decoration: underline;
 }
-
 .gs-section-04 p {
-     font-size: 60px;
+  font-size: 28px;
+  color: #333;
+  letter-spacing: 2px;
 }
 </style>
