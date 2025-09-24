@@ -257,7 +257,7 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 <style>
 .gs-section-01 h3 { 
-     color: pink;
+     color: darkred;
 }
 
 .gs-section-01 p {
@@ -270,17 +270,17 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
      color: teal;
 }
 
-.gs-section-01 p {
+.gs-section-02 p {
      font-size: 15px;
 }
 </style>
 
 <style>
-.gs-section-01 h3 { 
+.gs-section-03 h3 { 
      color: purple;
 }
 
-.gs-section-01 p {
+.gs-section-03 p {
      font-size: 30px;
 }
 </style>
@@ -290,7 +290,7 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
      color: gold;
 }
 
-.gs-section-01 p {
+.gs-section-04 p {
      font-size: 60px;
 }
 </style>
