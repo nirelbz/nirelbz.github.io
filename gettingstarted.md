@@ -399,11 +399,12 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 .gs-section-01 :is(p, ul, ol, li, blockquote) {
   font-size: 20px !important;
   line-height: 1.6 !important;
-  color: #222 !important;
+  color: #925e78 !important;
 }
 .gs-section-01 details > *:not(summary) {
   font-size: 20px !important;
   line-height: 1.6 !important;
+ color: blue !important; 
 }
  
 /* Section 2: */
