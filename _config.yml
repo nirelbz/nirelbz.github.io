@@ -14,7 +14,7 @@ author: Nirel Berz
 
 # --- Site URL  --- #
 url: "https://nirelbz.github.io"
-baseurl: "https://nirelbz.github.io" 
+baseurl: "" 
 
 # --- List of links in the navigation bar --- #
 
