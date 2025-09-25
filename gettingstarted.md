@@ -401,7 +401,7 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 }
 .gs-section-01 p {
   font-size: 16px;
- color: #f05365
+ color: blue
 }
  
 /* Section 2: */
