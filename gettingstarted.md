@@ -426,8 +426,8 @@ details .gs-section-03 p {
   color: goldenrod;
   font-weight: 500;
 }
- details .gs-section-03 p {
-  color: #0F766E !important;
+ details .gs-section-04 p {
+  color: #B45309 !important;
 }
  
 </style>
