@@ -395,16 +395,14 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 <style>
 
-/* Section 1 */
-.gs-section-01 :is(p, ul, ol, li, blockquote) {
-  font-size: 20px !important;
-  line-height: 1.6 !important;
-  color: #925e78 !important;
+ /* Section 1: */
+.gs-section-01 h3 { 
+  color: #925e78;
 }
 .gs-section-01 details > *:not(summary) {
   font-size: 20px !important;
   line-height: 1.6 !important;
- color: blue !important; 
+ color: #f05365 !important;
 }
  
 /* Section 2: */
