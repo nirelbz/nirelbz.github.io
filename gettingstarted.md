@@ -400,8 +400,9 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
   color: #925e78;
 }
 .gs-section-01 details > *:not(summary) {
-  font-size: 16px;
- color: #f05365
+  font-size: 20px !important;
+  line-height: 1.6 !important;
+ color: blue !important;
 }
  
 /* Section 2: */
