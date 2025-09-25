@@ -97,7 +97,7 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
 
 <details>
   <summary>Show details</summary>
-Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.
+<p> Click on the __*Fork*__ button at the top right corner of this page. Forking means that you're copying this entire project and all its files into your account. Do not click on the __*Create fork*__ button on the next page yet.</p>
 
 </details>
 
@@ -401,7 +401,6 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 }
 
 /* Section 1: body */
-.gs-section-01 details > *:not(summary),
 .gs-section-01 details > *:not(summary) * {
   color: #f05365 !important;
   font-size: 20px !important;
