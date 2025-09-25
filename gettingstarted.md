@@ -111,7 +111,7 @@ Scroll down to see the steps involved, but here is a 30-second video just as a r
 <details>
   <summary>Show details</summary>
  
-You'll see the word "repository" used a lot in GitHub - it simply means "project". Under __*Repository name*__ you should see the name `beautiful-jekyll`, this is where you need to rename your project to `YOURUSERNAME.github.io` (replace `YOURUSERNAME` with your GitHub user name). It's important to use this exact name so that GitHub will recognize it and automatically create a website for this project.   
+<p>You'll see the word "repository" used a lot in GitHub - it simply means "project". Under __*Repository name*__ you should see the name `beautiful-jekyll`, this is where you need to rename your project to `YOURUSERNAME.github.io` (replace `YOURUSERNAME` with your GitHub user name). It's important to use this exact name so that GitHub will recognize it and automatically create a website for this project.</p>
 
 > Tip: If you want to use a different URL for your website, check out the [FAQ](https://beautifuljekyll.com/faq/#custom-domain)
 
@@ -126,7 +126,7 @@ You'll see the word "repository" used a lot in GitHub - it simply means "project
 <details>
   <summary>Show details</summary>
  
-Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.
+<p>Edit the `_config.yml` file to change any settings you want. To edit the file, first click on it to view the file, and on the next page click on the pencil icon to edit it (watch the video tutorial above if you're confused).  The settings in the file are self-explanatory and there are comments inside the file to help you understand what each setting does. Any line that begins with a hashtag (`#`) is a comment, and the other lines are actual settings. After changing the settings, click the green __*Commit changes*__ button to save these edits.</p>
 
 > Note: In the video above, only one setting in the `_config.yml` file is edited, but you should go through the rest of the settings as well.
 
@@ -142,7 +142,7 @@ Edit the `_config.yml` file to change any settings you want. To edit the file, f
 <details>
   <summary>Show details</summary>
  
-If you named your project correctly and made an edit to the config file, your website should be ready in a minute or two at `https://YOURUSERNAME.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.
+<p>If you named your project correctly and made an edit to the config file, your website should be ready in a minute or two at `https://YOURUSERNAME.github.io`. Every time you make a change to any file, your website will get rebuilt and should be updated in about a minute or so. Your website will be initialized with several sample blog posts and a couple other pages.</p>
 
 </details>
 
@@ -409,28 +409,23 @@ details .gs-section-01 p {
 .gs-section-02 h3 { 
   color: #b5838d;
 }
-.gs-section-02 p {
-  font-size: 14px;
-  font-style: italic;
-  color: #ffb4a2;
+details .gs-section-02 p {
+  color: purple !important;
 }
 
 /* Section 3: */
 .gs-section-03 h3 { 
   color: #372554;
 }
-.gs-section-03 p {
-  font-size: 14px;
-  font-style: italic;
-  color: #0ccae3;
+details .gs-section-03 p {
+  color: purple !important;
 }
 
 
 /* Section 4 */
 .gs-section-04 h3 {
-  font-family: "Brush Script MT","Lucida Handwriting",cursive;
-  color: goldenrod;
-  font-weight: 500;
+  details .gs-section-04 p {
+  color: teal !important;
 }
  
 </style>
