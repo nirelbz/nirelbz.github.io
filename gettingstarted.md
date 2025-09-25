@@ -418,14 +418,14 @@ details .gs-section-02 p {
   color: #372554;
 }
 details .gs-section-03 p {
-  color: purple !important;
+  color: #0F766E !important;
 }
 
 
 /* Section 4 */
 .gs-section-04 h3 {
   details .gs-section-04 p {
-  color: teal !important;
+  color: #1E90FF !important;
 }
  
 </style>
