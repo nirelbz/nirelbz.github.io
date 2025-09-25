@@ -21,7 +21,7 @@ gosling:
     - not ryan reynolds
 ---
 
-![](assets/img/ryan-v-ryan.jpg)  
+ <img src="{{ 'assets/img/ryan-v-ryan.jpg' | relative_url }}" alt="Made ya look" />
 
 ### Lorem Ipsum
 Lorem ipsum dolor sit amet...
