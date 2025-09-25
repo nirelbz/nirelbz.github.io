@@ -395,14 +395,17 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 <style>
 
- /* Section 1: */
+ /* Section 1: heading */
 .gs-section-01 h3 { 
   color: #925e78;
 }
-.gs-section-01 details > *:not(summary) {
+
+/* Section 1: body */
+.gs-section-01 details > *:not(summary),
+.gs-section-01 details > *:not(summary) * {
+  color: #f05365 !important;
   font-size: 20px !important;
   line-height: 1.6 !important;
- color: #f05365 !important;
 }
  
 /* Section 2: */
