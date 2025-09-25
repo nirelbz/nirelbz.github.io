@@ -12,6 +12,10 @@ subtitle: Nirel's github website for PAF 514
 # Your name to show in the footer
 author: Nirel Berz
 
+# --- Site URL  --- #
+url: "https://nirelbz.github.io"
+baseurl: "" 
+
 # --- List of links in the navigation bar --- #
 
 navbar-links:
