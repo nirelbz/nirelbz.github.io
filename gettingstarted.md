@@ -400,7 +400,7 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 
 /* Section 1: body */
 details .gs-section-01 p {
-  color: blue !important;
+  color: #1E3A8A !important;
 }
  
 /* Section 2: */
