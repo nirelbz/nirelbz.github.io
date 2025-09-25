@@ -425,42 +425,11 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 }
 
 
-/* Section 4: Gold header, huge playful text with underline */
-.gs-section-04 h3 { 
-  color: #a663cc;
-  text-decoration: underline;
-}
-.gs-section-04 p {
- /* Glittery cursive header for Section 4 */
+/* Section 4 */
 .gs-section-04 h3 {
   font-family: "Brush Script MT","Lucida Handwriting",cursive;
-  font-size: 2.2em;
-  letter-spacing: 1px;
-
-  /* shimmering gold gradient text */
-  background-image: linear-gradient(90deg, #ffd700, #fff6a9, #ffcc33, #ffd700);
-  background-size: 200% auto;
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-  -webkit-text-fill-color: transparent;
-
-  text-shadow: 0 0 8px rgba(255, 215, 0, 0.35);
-  position: relative;
-  animation: shimmer 4s linear infinite;
-}
-
-/* add sparkles */
-.gs-section-04 h3::before,
-.gs-section-04 h3::after {
-  content: "✨";
-  margin: 0 .35em;
-  opacity: .95;
-}
-
-/* shimmer animation */
-@keyframes shimmer {
-  to { background-position: 200% center; }
+  color: goldenrod;
+  font-weight: 500;
 }
  
 </style>
