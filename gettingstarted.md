@@ -399,9 +399,9 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 .gs-section-01 h3 { 
   color: #925e78;
 }
-.gs-section-01 p {
+.gs-section-01 details > *:not(summary) {
   font-size: 16px;
- color: blue
+ color: #f05365
 }
  
 /* Section 2: */
