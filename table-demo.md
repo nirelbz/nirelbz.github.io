@@ -20,8 +20,7 @@ gosling:
   - cries a lot
   - not ryan reynolds
 ---
-  <img src="{{ 'assets/img/ryan-v-ryan.jpg' | relative_url }}" alt="Made ya look" />
-
+ ![Ryan vs Ryan]({{ '/assets/img/ryan-v-ryan.jpg' | relative_url }})
 
 ## Lorem ipsum 
 
