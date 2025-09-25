@@ -401,10 +401,8 @@ I'd also like to thank [Dr. Jekyll's Themes](https://drjekyllthemes.github.io/),
 }
 
 /* Section 1: body */
-.gs-section-01 details > *:not(summary) * {
-  color: #f05365 !important;
-  font-size: 20px !important;
-  line-height: 1.6 !important;
+details .gs-section-01 p {
+  color: blue !important;
 }
  
 /* Section 2: */
